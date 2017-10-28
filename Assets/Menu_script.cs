@@ -1,27 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Menu_script : MonoBehaviour {
 
-    public void GoToHowtoPlay()
-    {
-        Application.LoadLevel("howtoplay");
+    public Button bhtplay,bscanar,bquiz,babout,bexit;
+
+    void Start () {
+        bhtplay.onClick.AddListener(GoToHowtoPlay);
+        bscanar.onClick.AddListener(GoToScanAr);
+        bquiz.onClick.AddListener(GoToQuiz);
+        babout.onClick.AddListener(GoToAbout);
+        bexit.onClick.AddListener(ExitApplication);
     }
 
-    public void GoToARCamera()
+    public void GoToHowtoPlay()
     {
-        Application.LoadLevel("utama");
+        SceneManager.LoadScene("howtoplay");
+    }
+
+    public void GoToScanAr()
+    {
+        SceneManager.LoadScene("scanar");
     }
 
     public void GoToQuiz()
     {
-        Application.LoadLevel("test");
+        SceneManager.LoadScene("quiz");
     }
 
     public void GoToAbout()
     {
-        Application.LoadLevel("about");
+        SceneManager.LoadScene("about");
     }
 
     public void ExitApplication()
