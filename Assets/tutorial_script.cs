@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class tutorial_script : MonoBehaviour {
 
 	public Image imagetut;
-	public Button next;
-	public Button prev;
+	public Button bnext,bprev,bmenu;
 	int i=1,numimages=3;
 	// Use this for initialization
 	void Start () {
 		imagetut.sprite=Resources.Load<Sprite>("tut"+i);	
-		next.onClick.AddListener(nextClick);
-		prev.onClick.AddListener(prevClick);
+		bnext.onClick.AddListener(nextClick);
+		bprev.onClick.AddListener(prevClick);
+		bmenu.onClick.AddListener(GoToMenu);
 	}
 	
 	// Update is called once per frame
@@ -29,6 +30,16 @@ public class tutorial_script : MonoBehaviour {
 			imagetut.sprite=Resources.Load<Sprite>("tut"+i);			
 		}
 	}
+
+	public void GoToMenu()
+    {
+        SceneManager.LoadScene("menu");
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))GoToMenu();
+    }
 }
 
 

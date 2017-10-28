@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Backpress_script.cs" />
      <Compile Include="Assets\CameraFocus.cs" />
      <Compile Include="Assets\LeanTouch\LeanTouch\Examples\SimpleDrag.cs" />
      <Compile Include="Assets\LeanTouch\LeanTouch\Examples\SimpleInfo.cs" />
@@ -69,7 +68,6 @@
      <Compile Include="Assets\Script\Menu.cs" />
      <Compile Include="Assets\Script\MenuManager.cs" />
      <Compile Include="Assets\Script\Soal.cs" />
-     <Compile Include="Assets\Utama_script.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
@@ -105,8 +103,11 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
-     <Compile Include="Assets\backscript.cs" />
-     <Compile Include="Assets\splash_script.cs" />
+     <Compile Include="Assets\about_script.cs" />
+     <Compile Include="Assets\music_script.cs" />
+     <Compile Include="Assets\quiz_script.cs" />
+     <Compile Include="Assets\scanar_script.cs" />
+     <Compile Include="Assets\tap_ciri1.cs" />
      <Compile Include="Assets\tutorial_script.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
