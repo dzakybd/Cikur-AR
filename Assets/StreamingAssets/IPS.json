@@ -2,93 +2,93 @@
 "data":[
 {
 	"id":"1",
-	"soal":"Presiden pertama Indonesia",
+	"soal":"Siapakah nama pahlawan yang terdapat pada uang kertas 5000 rupiah?",
 	"jawaban":[
-		"Ir. Soekarno",
-		"Bung Kam mulutmu",
-		"Jokowi",
-		"Ahok"
+		"Dr. K. H. Idham Chalid",
+		"Mohammad Hoesni Thamrin",
+		"R. A. Kartini",
+		"Pangeran Antasari"
 	]
 	
 },
 {
 	"id":"2",
-	"soal":"Belanda pertama kali ke Indonesia di daerah",
+	"soal":"Tari yang terdapat di uang kertas 10000 rupiah adalah tari",
 	"jawaban":[
-		"Aceh",
-		"Sumatera Barat",
-		"Desa Kumayan",
-		"Jawa"
+		"Tari pakarena",
+		"Tari piring",
+		"Tari jaipong",
+		"Tari saman"
 	]
 },
 {
 	"id":"3",
-	"soal":"Siasat Pangeran Dipenogoro dalam mengalahkan pasukan Belanda adalah dengan melakukan",
+	"soal":"Siapakah nama pahlawan yang terdapat pada uang koin 1000 rupiah?",
 	"jawaban":[
-		"Perang Griliya",
-		"Perang Saudara",
-		"Perang Adu Domba",
-		"Perang Perangan"
+		"Mr. I Gusti Ketut Pudja",
+		"Letjen TNI T. B Simatupang",
+		"Prof. Dr. Ir. Herman Johannes",
+		"Mahmud Badaruddin II"
 	]
 },
 {
 	"id":"4",
-	"soal":"Berikut ini adalah pahlawan-pahlawan dari daerah Aceh, kecuali...",
+	"soal":"Siapakah nama pahlawan yang terdapat pada uang koin 500 rupiah?",
 	"jawaban":[
-		"Sisingamangaraja",
-		"Cut Meutia",
-		"Teuku Umar",
-		"Teuku Cik Di Tiro"
+		"Letjen TNI T. B Simatupang",
+		"Mr. I Gusti Ketut Pudja",
+		"Prof. Dr. Ir. Herman Johannes",
+		"Mahmud Badaruddin II"
 	]
 },
 {
 	"id":"5",
-	"soal":"Organisasi yang dipersiapkan untuk kemerdekaan RI adalah",
+	"soal":"Gambar Gunung Bromo terdapat pada uang ",
 	"jawaban":[
-		"BPUPKI",
-		"TNI",
-		"KPK",
-		"Alayer"
+		"5000",
+		"20000",
+		"10000",
+		"2000"
 	]
 },
 {
 	"id":"6",
-	"soal":"Dibawah ini yang buka Presiden Indonesia ke-5",
+	"soal":"Frans Kaisiepo merupakan pahlawan yang terdapat pada uang",
 	"jawaban":[
-		"Jokowi",
-		"Susilo",
-		"Bambang",
-		"Yudoyono"
+		"10000",
+		"20000",
+		"5000",
+		"2000"
 	]
 },
 {
 	"id":"7",
-	"soal":"Tempat Pangeran Dipenogoro diasingkan sampai wafatnya adalah di daerah",
+	"soal":"Situs taman nasional yang terdapat pada uang kertas 10000 rupiah terletak di propinsi",
 	"jawaban":[
-		"Manado",
-		"Magelang",
-		"Yogyakarta",
-		"Padang"
+		"Sulawesi Tenggara",
+		"Sulawesi Utara",
+		"Sumatera Barat",
+		"Sumatera Utara"
 	]
 },
 {
 	"id":"8",
-	"soal":"Siapa Penulis Buku Habis gelap terbitlah terang",
+	"soal":"Kepulauan apakah yang terdapat pada uang rupiah kertas 100000",
 	"jawaban":[
-		"RA Kartini",
-		"RA Ditiya Dika",
-		"Bung karno",
-		"Ki Jokobodo"
+		"Kepulauan Raja Ampat",
+		"Kepulauan Jawa",
+		"Kepulauan Derawan",
+		"Kepulauan Wakatobi "
 	]
 },
 {
 	"id":"9",
-	"soal":"Kerja Paksa yang dilakukan Jepang dikenal juga dengan ",
+	"soal":"Uang rupiah kertas manakah yang jika dilihat dari sudut pandang tertentu, benang anyaman nya dapat berubah warna?",
 	"jawaban":[
-		"Romusa",
-		"Rodi",
-		"Roda",
-		"Etos Kerja"
+		"50000 dan 100000",
+		"20000 dan 5000",
+		"50000 dan 1000",
+		"20000 dan 10000"
 	]
 }
 ]

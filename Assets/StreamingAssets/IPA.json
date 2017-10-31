@@ -2,93 +2,93 @@
 "data":[
 {
 	"id":"1",
-	"soal":"This is Question",
+	"soal":"Siapakah nama pahlawan yang ada pada uang rupiah kertas 2000?",
 	"jawaban":[
-		"This is the correct answer",
-		"Wrong Answer",
-		"Wrong Answer",
-		"Wrong Answer"
+		"Mohammad Hoesni Thamrin",
+		"Tjut Meutia",
+		"Dr. K. H. Idham Chalid",
+		"Ir. Soekarno – Moh. Hatta"
 	]
 	
 },
 {
 	"id":"2",
-	"soal":"ayam berkembang biak dengan cara",
+	"soal":"Apakah bentuk pecahan uang rupiah kertas 1000?",
 	"jawaban":[
-		"Bertelur",
-		"Mengeram",
-		"Melahirkan",
-		"Beranak"
+		"Koin dan Kertas",
+		"Koin",
+		"Kertas",
+		"Tidak ada jawaban yang benar"
 	]
 },
 {
 	"id":"3",
-	"soal":"Manusia bernafas menggunakan",
+	"soal":"Pada uang rupiah kertas 2000 akan terasa kasar apabila diraba pada bagian",
 	"jawaban":[
-		"Bensin",
-		"Paru Paru",
-		"Trakea",
-		"Ingsang"
+		"Tulisan '2000'",
+		"Tulisan 'Dua Ribu Rupiah'",
+		"Gambar Tari Piring",
+		"Burung Garuda"
 	]
 },
 {
 	"id":"4",
-	"soal":"Tulang yang melindungi organ dalam manusia adalah ....",
+	"soal":"Darimana asal tarian piring pada uang rupiah kertas 2000?",
 	"jawaban":[
-		"Tulang Rusuk",
-		"Tengkorak",
-		"Tulang Organ",
-		"Tulang Dalam"
+		"Sumatera Barat",
+		"DKI Jakarta",
+		"Bangka Belitung",
+		"Kalimantan Timur"
 	]
 },
 {
 	"id":"5",
-	"soal":"Kumpulan makhluk hidup dalam satu tempat disebut",
+	"soal":"Berapa jumlah uang rupiah koin yang beredar saat ini",
 	"jawaban":[
-		"Ekosistim",
-		"Populasi",
-		"Sosial",
-		"Tempat Tinggal"
+		"4",
+		"2",
+		"3",
+		"5"
 	]
 },
 {
 	"id":"6",
-	"soal":"Dibawah ini yang buka konduktor panas",
+	"soal":"Siapakah yang berwenang dalam peredaran uang rupiah di Indonesia?",
 	"jawaban":[
-		"Tembaga",
-		"Kain",
-		"Plastik",
-		"Karet"
+		"Bank Indonesia",
+		"Bank Negara Indonesia",
+		"Bank Central Asie",
+		"Bank Rakyat Indonesia"
 	]
 },
 {
 	"id":"7",
-	"soal":"Untuk mengurangi gaya gesek pada mesin, digunakan",
+	"soal":"Berikut merupakan cara mengenali ciri keaslian uang rupiah, kecuali",
 	"jawaban":[
-		"Oli",
-		"Sabun",
-		"Bensin",
-		"Minyak"
+		"Dipegang",
+		"Diraba",
+		"Dilihat",
+		"Ditrawang"
 	]
 },
 {
 	"id":"8",
-	"soal":"Salah satu benda yang dapat ditarik oleh magnet adalah",
+	"soal":"Situs taman nasional yang terdapat pada uang kertas 10000 rupiah terletak di propinsi",
 	"jawaban":[
-		"Sendok Alumunium",
-		"Cermin",
-		"Jarum",
-		"Cincin Emas"
+		"Sulawesi Tenggara",
+		"Sulawesi Utara",
+		"Sumatera Barat",
+		"Sumatera Utara"
 	]
 },
 {
 	"id":"9",
-	"soal":"Berikut ini yang tidak termasuk pesawat sederhana adalah",
+	"soal":"Siapakah nama pahlawan yang terdapat pada uang kertas 5000 rupiah?",
 	"jawaban":[
-		"Tambang",
-		"Tangga",
-		"Cangkul",
-		"Gunting"
+		"Dr. K. H. Idham Chalid",
+		"Mohammad Hoesni Thamrin",
+		"R. A. Kartini",
+		"Pangeran Antasari"
 	]
 }
 ]

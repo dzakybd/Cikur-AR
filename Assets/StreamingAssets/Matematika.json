@@ -2,93 +2,93 @@
 "data":[
 {
 	"id":"1",
-	"soal":"3 * 3 + 2 =",
+	"soal":"Uang rupiah kertas manakah yang jika dilihat dari sudut pandang tertentu, benang anyaman nya dapat berubah warna?",
 	"jawaban":[
-		"11",
-		"15",
-		"17",
-		"19"
+		"50000 dan 100000",
+		"20000 dan 5000",
+		"50000 dan 1000",
+		"20000 dan 10000"
 	]
 	
 },
 {
 	"id":"2",
-	"soal":"20 / 5 =",
+	"soal":"Siapakah pahlawan yang terdapat pada uang rupiah kertas 50000?",
 	"jawaban":[
-		"4",
-		"3",
-		"2",
-		"1"
+		"Ir. H. Djuanda Kartawidjaja",
+		"Dr. G. S. S. J. Ratulangi",
+		"Ir. Soekarno",
+		"Muhammad Hatta"
 	]
 },
 {
 	"id":"3",
-	"soal":"16 + 6 = ",
+	"soal":"Tari Gong dari Kalimantan Tengah terdapat pada uang rupiah kertas nominal",
 	"jawaban":[
-		"22",
-		"21",
-		"20",
-		"24"
+		"20000",
+		"10000",
+		"5000",
+		"50000"
 	]
 },
 {
 	"id":"4",
-	"soal":"2 * 4 =",
+	"soal":"Darimana asal Kepulauan Derawan pada uang rupiah kertas 20000?",
 	"jawaban":[
-		"8",
-		"6",
-		"10",
-		"12"
+		"Kalimantan Utara",
+		"Sumatera Barat",
+		"Jawa Timur",
+		"Kalimantan Timur"
 	]
 },
 {
 	"id":"5",
-	"soal":"1+4*2",
+	"soal":"Pengarang lagu “Indonesia Raya” terdapat pada watermark uang rupiah kertas nominal",
 	"jawaban":[
-		"8",
-		"10",
-		"12",
-		"14"
+		"100000",
+		"50000",
+		"20000",
+		"5000"
 	]
 },
 {
 	"id":"6",
-	"soal":"Jika A+1=10 , B+A=11 C= ?",
+	"soal":"Tarian di bawah ini berasal dari Bali dan terdapat pada uang rupiah kertas nominal 50000. Apakah nama tarian berikut?",
 	"jawaban":[
-		"EGP",
-		"1",
-		"12",
-		"22"
+		"Tari Legong",
+		"Tari Topeng",
+		"Tari Kipas",
+		"Tari Perang"
 	]
 },
 {
 	"id":"7",
-	"soal":"44/11",
+	"soal":"Kepulauan apakah yang terdapat pada uang rupiah kertas 100000?",
 	"jawaban":[
-		"4",
-		"2",
-		"5",
-		"8"
+		"Kepulauan Raja Ampat",
+		"Kepulauan Jawa",
+		"Kepulauan Derawan",
+		"Kepulauan Wakatobi "
 	]
 },
 {
 	"id":"8",
-	"soal":"1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1 = ",
+	"soal":"Siapakah yang berwenang dalam peredaran uang rupiah di Indonesia?",
 	"jawaban":[
-		"16",
-		"15",
-		"17",
-		"10"
+		"Bank Indonesia",
+		"Bank Rakyat Indonesia",
+		"Bank Negara Indonesia",
+		"Bank Central Asia"
 	]
 },
 {
 	"id":"9",
-	"soal":"Berapakah jawaban sebelumnya ",
+	"soal":"Siapakah nama pahlawan yang ada pada uang rupiah kertas 2000?",
 	"jawaban":[
-		"16",
-		"17",
-		"18",
-		"19"
+		"Mohammad Hoesni Thamrin",
+		"Dr. K. H. Idham Chalid",
+		"Ir. Soekarno – Moh. Hatta",
+		"Tjut Meutia"
 	]
 }
 ]
