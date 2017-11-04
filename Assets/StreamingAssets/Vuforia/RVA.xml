@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="1rb_depan" size="1.000000 0.459935" />
+    <ImageTarget name="2rb_depan" size="1.000000 0.490082" />
+    <ImageTarget name="5rb_depan" size="1.000000 0.481411" />
+    <ImageTarget name="10rb_depan" size="1.000000 0.459594" />
+    <ImageTarget name="20rb_depan" size="1.000000 0.469893" />
+    <ImageTarget name="50rb_depan" size="1.000000 0.447463" />
+    <ImageTarget name="100rb_depan" size="1.000000 0.454798" />
+  </Tracking>
+</QCARConfig>

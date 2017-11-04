@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Loading_script : MonoBehaviour {
@@ -20,7 +21,7 @@ public class Loading_script : MonoBehaviour {
         }
         else
         {
-            Application.LoadLevel("main_menu");
+            SceneManager.LoadScene("main_menu");
         }
 
         LoadingBar.GetComponent<Image>().fillAmount = currentAmount / 100;

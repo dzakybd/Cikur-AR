@@ -16,7 +16,7 @@ public class Kategori : MonoBehaviour {
 
 		string filePath = Application.streamingAssetsPath+"/";
 		Debug.Log(filePath);
-		DirectoryInfo dir = new DirectoryInfo (filePath);
+		// DirectoryInfo dir = new DirectoryInfo (filePath);
 		//FileInfo[] files = dir.GetFiles ("*.json");
 		//Debug.Log(files.Length);
 		//GameObject.Find ("Alamat").GetComponent<Text> ().text = files.Length.ToString();
