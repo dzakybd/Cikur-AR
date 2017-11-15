@@ -6,8 +6,10 @@ public class tap_ciri1 : MonoBehaviour
 {
 	public GameObject detail;
 	public Text txt;
-	
-	protected virtual void OnEnable()
+    public Text deskrip;
+    public Image imagetut;
+
+    protected virtual void OnEnable()
 	{
 		// Hook into the OnFingerTap event
 		Lean.LeanTouch.OnFingerTap += OnFingerTap;
@@ -25,7 +27,10 @@ public class tap_ciri1 : MonoBehaviour
 		// Make sure the finger isn't over any GUI elements
 		if (finger.IsOverGui == false)
 		{
-			detail.SetActive(true);
+            imagetut.sprite = Resources.Load<Sprite>("tut1");
+            deskrip.text = "ewdwedwedwedw";
+            detail.SetActive(true);
+    
 			txt.text = "Close";
 		}
 	}
