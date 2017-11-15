@@ -13,6 +13,7 @@ public class Soal : MonoBehaviour {
 	public bool nextSoal;
 	public bool clickJawaban;
 	public int score;
+    private string jsonNameTemp;
 
 	
 	public void SoalBegin(string jsonName){
@@ -20,6 +21,7 @@ public class Soal : MonoBehaviour {
 		nextSoal = true;
 		filePath = System.IO.Path.Combine(Application.streamingAssetsPath, jsonName+".json");
 		StartCoroutine ("Json");
+        jsonNameTemp = jsonName;
 		
 	}
 	
@@ -57,8 +59,16 @@ public class Soal : MonoBehaviour {
 			menuResult.ShowMenu (GameObject.Find("Result").GetComponent<Menu>());
 
 			GameObject.Find("Score").GetComponent<Text>().text = score.ToString()+"/"+ soalData["data"].Count;
+            if (!PlayerPrefs.HasKey(jsonNameTemp))
+            {
+                PlayerPrefs.SetInt(jsonNameTemp, score);
+            }
+            else if (PlayerPrefs.GetInt(jsonNameTemp) < score)
+            {
+                PlayerPrefs.SetInt(jsonNameTemp, score);
+            }
 
-		}
+        }
 
 			if (nextSoal) {
 				GameObject[] jawabanDestroy = GameObject.FindGameObjectsWithTag ("Jawaban");
