@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scanar.unity
+- path: Assets/Scenes/scanar.unity
   isLoaded: 1
   isActive: 1

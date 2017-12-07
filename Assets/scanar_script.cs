@@ -5,21 +5,26 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class scanar_script : MonoBehaviour {
-	public Text txt;
+
     public Button bmenu;
+    public Button bclose;
     public GameObject detail;
 	// Use this for initialization
 	void Start () {		
         bmenu.onClick.AddListener(GoToMenu);
-	}
+        bclose.onClick.AddListener(Close);
+    }
 	
 	void GoToMenu()
     {
-        if(!detail.gameObject.activeInHierarchy)SceneManager.LoadScene("menu");
-        else{
-            detail.gameObject.SetActive(false);
-            txt.text = "Menu";
-        }
+        SceneManager.LoadScene("menu");
+    
+    }
+
+    void Close()
+    {
+         detail.gameObject.SetActive(false);
+        bclose.gameObject.SetActive(false);
     }
 
     void Update()

@@ -2,14 +2,17 @@
 using UnityEngine.UI;
 
 // This script will spawn a prefab when you tap the screen
-public class tap_ciri1 : MonoBehaviour
+public class tap_ciri : MonoBehaviour
 {
 	// This stores the layers we want the raycast to hit (make sure this GameObject's layer is included!)
 	public LayerMask LayerMask = UnityEngine.Physics.DefaultRaycastLayers;
 	public GameObject detail;
-	public Text txt;
+	public GameObject close;
     public Text deskrip;
     public Image imagetut;
+
+    public string deskripsi;
+    public string image_path;
 	// This stores the finger that's currently dragging this GameObject
 	private Lean.LeanFinger draggingFinger;
 	
@@ -36,12 +39,13 @@ public class tap_ciri1 : MonoBehaviour
 		// If there is an active finger, move this GameObject based on it
 		if (draggingFinger != null)
 		{
-			imagetut.sprite = Resources.Load<Sprite>("tut1");
-            deskrip.text = "ewdwedwedwedw";
+            
+            imagetut.sprite = Resources.Load<Sprite>("Ciri-Ciri Image/" + image_path);
+            deskrip.text = deskripsi;
             detail.SetActive(true);
-			txt.text = "Close";
-			// Lean.LeanTouch.MoveObject(transform, draggingFinger.DeltaScreenPosition);
-		}
+            close.SetActive(true);
+            // Lean.LeanTouch.MoveObject(transform, draggingFinger.DeltaScreenPosition);
+        }
 	}
 	
 	public void OnFingerDown(Lean.LeanFinger finger)
