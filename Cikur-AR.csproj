@@ -106,6 +106,7 @@
     <Compile Include="Assets\Script\Menu.cs" />
     <Compile Include="Assets\Script\MenuManager.cs" />
     <Compile Include="Assets\Script\Soal.cs" />
+    <Compile Include="Assets\Script\tap_ciri.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
@@ -145,7 +146,6 @@
     <Compile Include="Assets\music_script.cs" />
     <Compile Include="Assets\quiz_script.cs" />
     <Compile Include="Assets\scanar_script.cs" />
-    <Compile Include="Assets\tap_ciri1.cs" />
     <Compile Include="Assets\tutorial_script.cs" />
   </ItemGroup>
   <ItemGroup>
