@@ -7,7 +7,7 @@ public class tap_ciri : MonoBehaviour
 	// This stores the layers we want the raycast to hit (make sure this GameObject's layer is included!)
 	public LayerMask LayerMask = UnityEngine.Physics.DefaultRaycastLayers;
 	public GameObject detail;
-	public Text txt;
+	public GameObject close;
     public Text deskrip;
     public Image imagetut;
 
@@ -40,12 +40,12 @@ public class tap_ciri : MonoBehaviour
 		if (draggingFinger != null)
 		{
             
-            imagetut.sprite = Resources.Load<Sprite>(image_path);
+            imagetut.sprite = Resources.Load<Sprite>("Ciri-Ciri Image/" + image_path);
             deskrip.text = deskripsi;
             detail.SetActive(true);
-            txt.text = "Close";
-			// Lean.LeanTouch.MoveObject(transform, draggingFinger.DeltaScreenPosition);
-		}
+            close.SetActive(true);
+            // Lean.LeanTouch.MoveObject(transform, draggingFinger.DeltaScreenPosition);
+        }
 	}
 	
 	public void OnFingerDown(Lean.LeanFinger finger)
